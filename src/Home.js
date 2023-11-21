@@ -7,7 +7,7 @@ const Home = ({ posts }) => {
       {posts.length ? (
         <Feed posts={posts} />
       ) : (
-        <p style={{ marginTop: "2rem" }}></p>
+        <p style={{ marginTop: "2rem" }}>No posts to display.</p>
       )}
     </main>
   );
